@@ -1,2 +1,2 @@
 def is_palindrome(word):
-    pass
+    word = word.lower().replace(" ", "").replace(".", "").replace(",", "").replace(";", "").replace(":", "").replace("?", "").replace("!", "")
