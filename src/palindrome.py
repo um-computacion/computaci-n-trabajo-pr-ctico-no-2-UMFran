@@ -5,3 +5,7 @@ def is_palindrome(word):
         return True
     else:
         return word[0] == word[-1] and is_palindrome(word[1:-1])
+
+word = input("Ingresa una cadena: ")
+resultado = is_palindrome(word)
+print(f"¿La cadena es un palíndromo?: {resultado}")
